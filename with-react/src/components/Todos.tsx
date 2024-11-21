@@ -1,13 +1,13 @@
 import React from "react";
 import Todo from "../models/Todo";
-
+import TodoItem from './TodoItem';
 
 const Todos: React.FC<{ items: Todo[] }> = (props) => {
   return (
     <ul>
       {props.items.map((item) => (
-        <li key={item.id}>{item.text}</li>
-        // weil jetzt ein Objekt ist dann key nicht das objekt sondern die id vom object und was gerendert werden soll dann der text vom objekt
+        <TodoItem key={item.id} text={item.text}/>
+        // auch wenn beim TodoItem nur die text prop erwähnt wird - ist das key prop immer dabei und braucht keine unbedingte Erwähnung
       ))}
     </ul>
   );

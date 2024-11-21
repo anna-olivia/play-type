@@ -1,5 +1,6 @@
 import Todos from "./components/Todos";
 import Todo from "./models/Todo";
+import NewTodo from "./components/NewTodo";
 
 function App() {
   const todos = [
