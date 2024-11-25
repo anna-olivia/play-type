@@ -1,0 +1,53 @@
+.form {
+    width: 40rem;
+    margin: 2rem auto;
+    
+  }
+  
+  .form label {
+    display: block;
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input {
+    display: block;
+    width: 100%;
+    font: inherit;
+    color: rgb(0,0,0,0.5);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #f7f5ef;
+    border: none;
+    border-bottom: 2px solid teal;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input:focus {
+    outline: none;
+  box-shadow: 0 0 0 2px teal;
+}
+  
+
+
+  .form button {
+    font: inherit;
+    background-color: teal;
+    border: 1px solid teal;
+    color: whitesmoke;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  
+  .form button:hover,
+  .form button:active {
+    background-color: rgb(8, 167, 167);
+    border-color: rgb(8, 167, 167);
+  }

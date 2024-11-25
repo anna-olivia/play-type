@@ -1,0 +1,26 @@
+.item {
+  font-size: 1.2rem;
+    margin: 1rem 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #f7f5ef;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item button {
+    font: inherit;
+    background-color: #800000;
+    border: 1px solid #800000;
+    color: whitesmoke;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+  .item button:hover,
+  .item button:active {
+    background-color: #9a1414;
+    border-color: #9a1414;
+  }
